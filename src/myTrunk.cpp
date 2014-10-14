@@ -45,21 +45,7 @@ void myTrunk::setCenterPointVertex(ofPoint newCenterPoint)
 void myTrunk::setExternalPointVertex(float width)
 {
     m_currentWidth = width;
-
-    //trunkのデータを作成。
-    for (int i = 0; i < 4; ++i)
-    {
-        //x座標
-        if (i == 0 || i == 3) m_externalPoint[i].vertex.x = m_centerPoint.vertex.x - width;
-        else m_externalPoint[i].vertex.x = m_centerPoint.vertex.x + width;
-
-        //z座標
-        if (i == 2 || i == 3) m_externalPoint[i].vertex.z = m_centerPoint.vertex.z - width;
-        else m_externalPoint[i].vertex.z = m_centerPoint.vertex.z + width;
-
-        //y座標（高さ）
-        m_externalPoint[i].vertex.y = m_centerPoint.vertex.y;
-    }
+    setExternalPointVertex();
 }
 
 void myTrunk::setExternalPointID(ofIndexType &currentIDNumber)
@@ -77,11 +63,17 @@ void myTrunk::setExternalPointID(ofIndexType &currentIDNumber)
     }
 }
 
-void myTrunk::resetExternalPointVertex(float width)
+//-----------------------------------------------------------
+void myTrunk::resetSize(float width)
 {
-    m_currentWidth = width;
-    isCorrect();
+    m_currentWidth = width; //ExternalPointの示す幅を指定。
     setExternalPointVertex(width);
+}
+
+void myTrunk::increaseSize(float amount)
+{
+    m_currentWidth += amount;   //ExternalPointの幅を、引数分増加。
+    setExternalPointVertex(m_currentWidth);
 }
 
 //-----------------------------------------------------------
@@ -113,4 +105,24 @@ bool myTrunk::isCorrect()
         return false;
     }
     return true;
+}
+
+void myTrunk::setExternalPointVertex()
+{
+    isCorrect();    //メンバ変数の値を監視。
+
+    //trunkのデータを作成。
+    for (int i = 0; i < 4; ++i)
+    {
+        //x座標
+        if (i == 0 || i == 3) m_externalPoint[i].vertex.x = m_centerPoint.vertex.x - m_currentWidth;
+        else m_externalPoint[i].vertex.x = m_centerPoint.vertex.x + m_currentWidth;
+
+        //z座標
+        if (i == 2 || i == 3) m_externalPoint[i].vertex.z = m_centerPoint.vertex.z - m_currentWidth;
+        else m_externalPoint[i].vertex.z = m_centerPoint.vertex.z + m_currentWidth;
+
+        //y座標（高さ）
+        m_externalPoint[i].vertex.y = m_centerPoint.vertex.y;
+    }
 }

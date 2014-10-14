@@ -5,13 +5,13 @@ ofIndexType myBranch::m_currentIndexNumber = 0;
 //-----------------------------------------------------------------
 myBranch::myBranch()
 {
-    m_jugger = new JugeTopHeight(7.0);
+    m_jugger = new JugeTopHeight(15.0);
 }
 
 myBranch::myBranch(ofPoint basePoint)
 {
     init(basePoint);
-    m_jugger = new JugeTopHeight(7.0);
+    m_jugger = new JugeTopHeight(15.0);
 }
 
 //-----------------------------------------------------------------
@@ -38,8 +38,8 @@ void myBranch::init(ofPoint basePoint)
 
 void myBranch::update()
 {
-    updateTopPointHeight(ofGetElapsedTimef() * 4.0);
-    updateTrunkWidth(ofGetElapsedTimef() * 2.0);
+    updateTopPointHeight(ofGetElapsedTimef() * 0.04);
+    updateTrunkWidth(ofGetElapsedTimef() * 0.01);
 
     //新規でTrunkを生成するかをJugeCreateTimingクラスから判断。
     if(m_jugger->getJuge(getTopPoint().y - m_basePoint.y,getNumTrunk()))
@@ -97,7 +97,7 @@ void myBranch::conectTopWithRoot(myTrunk rootTrunk)
 void myBranch::updateTopPointHeight(float height)
 {
     ofVec3f *vertexPtr = m_mesh.getVerticesPointer();   //根本の位置の高さから、引数分の値高くする。
-    m_topVertex.y = m_basePoint.y + height;
+    m_topVertex.y += height;
     vertexPtr[m_topID].y = m_topVertex.y;
 }
 
@@ -105,7 +105,7 @@ void myBranch::updateTrunkWidth(float width)
 {
     for (int i = 0; i < m_trunks.size(); ++i)
     {
-        m_trunks[i].resetExternalPointVertex(width);
+        m_trunks[i].increaseSize(width);
         m_trunks[i].reflectMesh(m_mesh);
     }
 }

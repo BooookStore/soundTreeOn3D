@@ -32,24 +32,23 @@ public:
 public:
     //初期状態の作成。
     void setCenterPointVertex(ofPoint newCenterPoint);
-    void setExternalPointVertex(float width = 0.0);
+    void setExternalPointVertex(float width);
     void setExternalPointID(ofIndexType &currentIDNumber);
 
 public:
     //設定された変数を、変更。
-    void resetExternalPointVertex(float width);
+    void resetSize(float width);
+    void increaseSize(float amount);
 
     //アウトプット。
     //作成した情報をメッシュへ出力する。
 public:
     void writeMesh(ofMesh &mesh);
-
-    //更新関数
-public:
-    void reflectMesh(ofMesh &mesh);    //幅を更新。引数分、幅を広げる。
+    void reflectMesh(ofMesh &mesh);
 
 private:
-    bool isCorrect();
+    bool isCorrect();   //メンバ変数のチェック関数
+    void setExternalPointVertex();  //現在のメンバ変数の値をm_externalPointへ反映させる。
 
     //頂点情報変数
 private:
