@@ -1,0 +1,1102 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"update",
+				"updateTrunkWidth"
+			],
+			[
+				"m_",
+				"m_trunks"
+			],
+			[
+				"M_",
+				"m_topID"
+			],
+			[
+				"m_top",
+				"m_topIndex"
+			],
+			[
+				"base",
+				"basePoint"
+			],
+			[
+				"ver",
+				"vertexPtr"
+			],
+			[
+				"move",
+				"moveSpeed"
+			],
+			[
+				"setRotate",
+				"setRotateAxis"
+			],
+			[
+				"my",
+				"myBio"
+			],
+			[
+				"set",
+				"setAxis"
+			],
+			[
+				"draw",
+				"drawWireframe"
+			],
+			[
+				"m_c",
+				"m_currentWidth"
+			],
+			[
+				"mesh",
+				"mesh_vertices"
+			],
+			[
+				"ex",
+				"externalPoint"
+			],
+			[
+				"m",
+				"myTrunk"
+			],
+			[
+				"area",
+				"area3"
+			],
+			[
+				"box",
+				"boxVertex"
+			],
+			[
+				"add",
+				"addExternalPointID"
+			],
+			[
+				"curren",
+				"currentID"
+			],
+			[
+				"addE",
+				"addExternalPointID"
+			],
+			[
+				"t",
+				"trunk"
+			],
+			[
+				"conne",
+				"connectTrunk"
+			],
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"tem",
+				"tempID_3"
+			],
+			[
+				"te",
+				"tempID_3"
+			],
+			[
+				"up",
+				"upExternalID_2"
+			],
+			[
+				"upID",
+				"upID_1"
+			],
+			[
+				"of",
+				"ofCircle"
+			],
+			[
+				"tru",
+				"trunkSize"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"ofget",
+				"ofGetHeight"
+			],
+			[
+				"newPo",
+				"newPosition"
+			],
+			[
+				"cal",
+				"calculateGrowVector"
+			],
+			[
+				"point",
+				"pointForm"
+			],
+			[
+				"sendSkin",
+				"sendSkinInfomation"
+			],
+			[
+				"bone",
+				"bonePoint"
+			],
+			[
+				"sound",
+				"soundTreeShader"
+			],
+			[
+				"so",
+				"soundTreeShaderSource"
+			],
+			[
+				"s",
+				"soundTreeShader"
+			],
+			[
+				"setB",
+				"setBranchDecrease"
+			],
+			[
+				"sendS",
+				"sendSkinColorToMesh"
+			],
+			[
+				"soun",
+				"soundTree2D"
+			],
+			[
+				"curre",
+				"currentPointForm"
+			],
+			[
+				"current",
+				"currentPointForm"
+			],
+			[
+				"right",
+				"rightPoint"
+			],
+			[
+				"left",
+				"leftPoint"
+			],
+			[
+				"new",
+				"newBranchDecrease"
+			],
+			[
+				"m_B",
+				"m_branchDecrease"
+			],
+			[
+				"send",
+				"sendSKinLeftIndexToMesh"
+			],
+			[
+				"i",
+				"index3"
+			],
+			[
+				"in",
+				"index2"
+			],
+			[
+				"inde",
+				"index2"
+			],
+			[
+				"sendRoot",
+				"sendRootSkinColorToMesh"
+			],
+			[
+				"sou",
+				"soundTree2D"
+			],
+			[
+				"soundTree",
+				"soundTree2D"
+			],
+			[
+				"cam",
+				"cameraZoom"
+			],
+			[
+				"Soun",
+				"SoundTree2D"
+			],
+			[
+				"decre",
+				"decreaseSkinWidth"
+			],
+			[
+				"m_s",
+				"m_skinWidth"
+			],
+			[
+				"dec",
+				"m_decreaseSkinWidth"
+			],
+			[
+				"rig",
+				"rightGrowVector"
+			],
+			[
+				"Ex",
+				"EXIT_FAILURE"
+			],
+			[
+				"rightPi",
+				"rightPointForm"
+			],
+			[
+				"get",
+				"getBranchLength"
+			],
+			[
+				"SP",
+				"SPindex3"
+			],
+			[
+				"cur",
+				"currentPointForm"
+			],
+			[
+				"ri",
+				"rightPoint"
+			],
+			[
+				"be",
+				"beforeForm"
+			],
+			[
+				"before",
+				"beforeForm"
+			],
+			[
+				"rightPoi",
+				"rightPointForm"
+			],
+			[
+				"e",
+				"EXIT_FAILURE"
+			],
+			[
+				"m_tree",
+				"m_treeComplete"
+			],
+			[
+				"ind",
+				"index3"
+			],
+			[
+				"index",
+				"index1"
+			],
+			[
+				"m_skin",
+				"m_skinMesh"
+			],
+			[
+				"m_b",
+				"m_branchDecrease"
+			],
+			[
+				"ve",
+				"vertex"
+			],
+			[
+				"m_grow",
+				"m_growCountMax"
+			],
+			[
+				"addIndex",
+				"addIndexToMesh"
+			],
+			[
+				"leftI",
+				"leftIndex"
+			],
+			[
+				"rightIn",
+				"rightIndexNext"
+			],
+			[
+				"leftIndex",
+				"leftIndexNext"
+			],
+			[
+				"rightIndex",
+				"rightIndex"
+			],
+			[
+				"leftB",
+				"leftBranchRight"
+			],
+			[
+				"lefr",
+				"leftForm"
+			],
+			[
+				"rightBran",
+				"rightBranchRight"
+			],
+			[
+				"bran",
+				"branchLeft"
+			],
+			[
+				"branch",
+				"branchRight"
+			],
+			[
+				"root",
+				"rootForm"
+			],
+			[
+				"Vec",
+				"Vector"
+			],
+			[
+				"branc",
+				"branchRight"
+			],
+			[
+				"basePo",
+				"basePointLeft"
+			],
+			[
+				"poi",
+				"points"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"Vector",
+				"VectorCenter"
+			],
+			[
+				"connect",
+				"connectNewInfPoint"
+			],
+			[
+				"lef",
+				"leftInfPoint"
+			],
+			[
+				"create",
+				"createLeftInfPoint"
+			],
+			[
+				"Po",
+				"point"
+			],
+			[
+				"m_Ba",
+				"m_treePointBase"
+			],
+			[
+				"main",
+				"mainGrow"
+			],
+			[
+				"upd",
+				"updateMesh"
+			],
+			[
+				"newR",
+				"newRightPosition"
+			],
+			[
+				"RIGHT",
+				"RIGHT"
+			],
+			[
+				"m_current",
+				"m_currentIndex"
+			],
+			[
+				"dou",
+				"doubleBeforePointIndex"
+			],
+			[
+				"befo",
+				"beforePointIndex"
+			],
+			[
+				"bef",
+				"beforePoint"
+			],
+			[
+				"d",
+				"doubleBeforePointIndex"
+			],
+			[
+				"beforePoint",
+				"beforePointIndex"
+			],
+			[
+				"Dump",
+				"DumpFile"
+			],
+			[
+				"Dum",
+				"DumpFile"
+			],
+			[
+				"P",
+				"PAGE_HEIGHT"
+			],
+			[
+				"PA",
+				"PAGE_WIDTH"
+			],
+			[
+				"ge",
+				"getIndex"
+			],
+			[
+				"elapsed",
+				"elapsedTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ofApp.h",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myTrunk.h",
+			"settings":
+			{
+				"buffer_size": 1225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myBranch.h",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ofApp.cpp",
+			"settings":
+			{
+				"buffer_size": 1740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myTrunk.cpp",
+			"settings":
+			{
+				"buffer_size": 2487,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myBranch.cpp",
+			"settings":
+			{
+				"buffer_size": 2473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/bookstore/AppData/Roaming/Sublime Text 2/Packages/SublimeClang/CONTRIBUTING.md",
+			"settings":
+			{
+				"buffer_size": 5328,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "soundTreeOn3D.sublime-project",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/src/soundTreeOn3D.sublime-project",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/src/main.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/Bio/src/main.cpp",
+		"/C/Users/bookstore/Desktop/ofxLeapMotion-master/libs/README.txt",
+		"/C/Users/bookstore/Desktop/ofxLeapMotion-master/README.md",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/ofApp.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/tempText.txt",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/myTrunk.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/myTrunk.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/ofApp.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/soundTreeOn3D/soundTreeOn3D/main.cpp",
+		"/C/Users/bookstore/Desktop/Ruby/testScripting.rb",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Shader/shader_001_tutorial/bin/data/vertexShader.vert",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Shader/shader_001_tutorial/bin/data/fragmentShader.frag",
+		"/C/Users/bookstore/AppData/Roaming/Sublime Text 2/Packages/Ruby Coverage/README.md",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/soundTreeクラス/version6_枝が一本で生成可能/soundTree2D.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/soundTree2D.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/myTimeElapsed.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/main.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/myTimeElapsed.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/soundTreeShader.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/soundTree_Test/src/soundTreeShader.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/main.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/bin/data/fragmentShader.frag",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/bin/data/vertexShader.vert",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTreeShader.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/bin/data/soundTreeShaderSource/fragmantShader.frag",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/bin/data/soundTreeShaderSource/vertexShader.vert",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTree2D.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/myTimeElapsed.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/myTimeElapsed.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTreePointManager.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTreePointManager.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTree.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTree.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTree.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/main.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTreePointManager.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTreePointManager.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/mySoundTree.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/mySoundTree.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTree.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/bin/data/vertexShader.vert",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/bin/data/fragmentShader.frag",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTreeMeshManager.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/myApps/Test/src/soundTreeMeshManager.h",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/soundTreeクラス/version1/mySoundTree.h",
+		"/C/Users/bookstore/Desktop/ロベールのC++/08-03/main.cpp",
+		"/C/Users/bookstore/Desktop/ロベールのC++/08-03/DumpFile.h",
+		"/C/Users/bookstore/Desktop/ロベールのC++/08-03/DumpFile.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/myElapsedTimeText.cpp",
+		"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/SoundTreeProject/SoundTree_001/src/myElapsedTimeText.h",
+		"/C/Users/bookstore/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/bookstore/AppData/Roaming/Sublime Text 2/Packages/Theme - Afterglow/README.md"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\",
+			"\n//-----------------------------------------------------------------",
+			"drawWireframe",
+			"\",\"",
+			";\n",
+			"currentWidth",
+			"addExternal",
+			"trunkSize",
+			"temp",
+			"+",
+			"box",
+			"connectingTrunk",
+			"box",
+			"up",
+			"base",
+			"externalID",
+			"trunkPoint",
+			"currentIndex",
+			"externalIndex",
+			"base",
+			"first",
+			"base",
+			"mousePosition",
+			"updateGrowCount",
+			"m_growCount",
+			"m_growCountMax",
+			"cout",
+			"-1",
+			"createSkinVertex",
+			"-1",
+			"m_shader",
+			"m_branchDecrease",
+			"soundTREe",
+			"sendSkinVertexToMesh",
+			"sendSkinVertex",
+			"m_treePointFormbase",
+			"m_treePointFormBase",
+			"sendRootBone",
+			"sendSkinVertexToMesh",
+			"m_currentSaturation",
+			"m_color",
+			"sendRootSkinIndex",
+			"sendSkinVertex",
+			"sendRootSkinVertex",
+			"sendRootSkinIndex",
+			"createSkinVertex",
+			"soundTree",
+			"m_branchDecrease",
+			"m_branchLength",
+			"before",
+			"右側の",
+			"sendSkinIndexToMesh",
+			"sendRootSKinIndexTo",
+			"m_skinMesh.addColor",
+			"sendSkinIndex",
+			"sendRootSkinIndexToMesh",
+			"sendRootSkinIndex",
+			"sendRootSkinVer",
+			"m_color",
+			"SoundTree",
+			"10.0",
+			"out",
+			"sendSkinColor",
+			"draw",
+			"createSkinVertex",
+			"setShaderSource(string vertex,string fragment)",
+			"setShader",
+			"soundTreePointManager",
+			"m_skinWidth",
+			"cout <<",
+			"createSkinVertex",
+			"sendSkin",
+			"sendRootSkinVertex",
+			"sendRootSkinIndex",
+			"calculateGrowVector",
+			":calculateGrowVector",
+			"calculateGrowVector",
+			"growVector",
+			"createRootSkinVertex",
+			"createSkinVertex",
+			"改善",
+			"newInfPoint",
+			"set",
+			"setBranchLength",
+			"m_treeComplete",
+			"form",
+			"addSkin",
+			"addRootSkin",
+			"sendSkinToMesh",
+			"addIndex",
+			"root",
+			"addSkin",
+			"setBase",
+			"Warning",
+			"wrninng",
+			"updateMeshBase",
+			"updateRootMesh",
+			"updateMeshBase",
+			"updateMesh",
+			"m_skinWidth",
+			"updateSkinMesh",
+			"newInfPoint",
+			"updateMesh",
+			"connectNewInfPoint",
+			"searchCreatingInfPoint",
+			"setBase",
+			"m_branchDecrease",
+			"m_branchLengthDecrease",
+			"newInfPoint",
+			"createNewInfPoint",
+			"point",
+			"m_treeInfPointBase",
+			"beforeInfPoint",
+			"currentInfPoint",
+			"point",
+			"leftInfPoint",
+			"rightInfPoint",
+			"leftInfPoint",
+			"rightInfPoint",
+			"InfPoint",
+			"index",
+			"point",
+			"leftInfPoint",
+			"leftPointForm",
+			"rightInfPoint",
+			"leftInfPoint",
+			"rightInfPoint",
+			"InfPoint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"of"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ofApp.h",
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "myTrunk.h",
+					"settings":
+					{
+						"buffer_size": 1225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "myBranch.h",
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "ofApp.cpp",
+					"settings":
+					{
+						"buffer_size": 1740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "myTrunk.cpp",
+					"settings":
+					{
+						"buffer_size": 2487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "myBranch.cpp",
+					"settings":
+					{
+						"buffer_size": 2473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/bookstore/AppData/Roaming/Sublime Text 2/Packages/SublimeClang/CONTRIBUTING.md",
+					"settings":
+					{
+						"buffer_size": 5328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "soundTreeOn3D.sublime-project",
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 76.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.514268867925,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 128.0
+	},
+	"output.exec":
+	{
+		"height": 367.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/bookstore/Desktop/CodeBlocksOF/apps/Project/test001/src/project001.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true
+}

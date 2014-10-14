@@ -1,0 +1,191 @@
+#include "ofApp.h"
+
+float trunkSize = 1;
+
+struct point
+{
+	ofPoint vertex;
+	ofIndexType id;
+};
+
+struct trunk
+{
+
+    //内在的な、基準となるポイント。
+    ofPoint centerPoint;
+    ofIndexType centerIndex;
+
+    //それぞれの頂点を表す。
+    ofPoint externalPoint[4];
+    ofIndexType externalID[4];
+};
+
+//現在の最大＋１の頂点IDを示す。
+ofIndexType currentID = 0;
+
+//ボックスを描いてみる。
+ofMesh box;
+
+trunk base;
+trunk up;
+
+//--------------------------------------------------------------
+void ofApp::setup()
+{
+    shader.load("vertexShader.vert", "fragmentShader.frag");
+    camera.setPosition(10, 10, 10);
+    camera.lookAt(ofVec3f(0, 0, 0));
+
+    //trunkを２つ作成。
+    base.centerPoint = ofPoint(0, 0, 0);
+    up.centerPoint = ofPoint(0, trunkSize * 2, 0);
+
+    //trunkのデータを作成。
+    for (int i = 0; i < 4; ++i)
+    {
+        //x座標
+        if (i == 0 || i == 3) base.externalPoint[i].x = base.centerPoint.x - trunkSize;
+        else base.externalPoint[i].x = base.centerPoint.x + trunkSize;
+
+        //z座標
+        if (i == 2 || i == 3) base.externalPoint[i].z = base.centerPoint.z - trunkSize;
+        else base.externalPoint[i].z = base.centerPoint.z + trunkSize;
+
+        //y座標（高さ）
+        base.externalPoint[i].y = base.centerPoint.y;
+
+        //メッシュへ情報転送し、転送順番でインデックスを保存。
+        base.externalID[i] = currentID;
+        box.addVertex(base.externalPoint[i]);
+
+        currentID++;
+    }
+
+    for (int i = 0; i < 4; ++i)
+    {
+        if (i == 0 || i == 3) up.externalPoint[i].x = up.centerPoint.x - trunkSize;
+        else up.externalPoint[i].x = up.centerPoint.x + trunkSize;
+
+        if (i == 2 || i == 3) up.externalPoint[i].z = up.centerPoint.z - trunkSize;
+        else up.externalPoint[i].z = up.centerPoint.z + trunkSize;
+
+        up.externalPoint[i].y = up.centerPoint.y;
+
+        up.externalID[i] = currentID;
+        box.addVertex(up.externalPoint[i]);
+
+        currentID++;
+    }
+
+    //インデックスの設定
+    for (int i = 0; i < 3; ++i)
+    {
+    	ofIndexType tempID_1 = base.externalID[i];	//下部の左。
+    	ofIndexType tempID_2 = up.externalID[i];	//上部の左。
+    	ofIndexType tempID_3 = up.externalID[i+1];	//上部の右。
+
+    	cout << i << "times : " << tempID_1 << "," << tempID_2 << "," << tempID_3 << endl;
+    	box.addTriangle(tempID_1,tempID_2,tempID_3);
+
+    	tempID_2 = base.externalID[i+1];    //下部の右。
+
+    	cout << i << "times : " << tempID_1 << "," << tempID_2 << "," << tempID_3 << endl;
+    	box.addTriangle(tempID_1,tempID_2,tempID_3);
+    }
+    box.addTriangle(base.externalID[3],up.externalID[3],up.externalID[0]);
+    box.addTriangle(base.externalID[3],up.externalID[0],up.externalID[0]);
+
+
+}
+
+//---------------------------------------------------------------
+void ofApp::update()
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::draw()
+{
+
+    //深度判定有効。
+    ofEnableDepthTest();
+
+    ofBackground(ofColor(0));
+    ofSetColor(ofColor::red);
+
+    shader.begin();
+    camera.begin();
+
+    //グリッドの猫写
+    //ofDrawGrid();
+
+    box.drawFaces();
+
+    ofSetColor(ofColor::black);
+    box.drawWireframe();
+
+    for (int i = 0; i < 4; ++i)
+    {
+        ofCircle(base.externalPoint[i], 0.1);
+        ofCircle(up.externalPoint[i], 0.1);
+    }
+
+    camera.end();
+    shader.end();
+
+}
+
+//--------------------------------------------------------------
+void ofApp::keyPressed(int key)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::keyReleased(int key)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseMoved(int x, int y)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseDragged(int x, int y, int button)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mousePressed(int x, int y, int button)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseReleased(int x, int y, int button)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::windowResized(int w, int h)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::gotMessage(ofMessage msg)
+{
+
+}
+
+//--------------------------------------------------------------
+void ofApp::dragEvent(ofDragInfo dragInfo)
+{
+
+}

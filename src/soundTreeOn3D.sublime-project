@@ -1,0 +1,8 @@
+{
+	 "settings": {
+        "sublimeclang_options": [
+            "C:/Users/bookstore/Desktop/CodeBlocksOF/libs/openFrameworks/ofMain.h",
+            "C:/Users/bookstore/Desktop/CodeBlocksOF/libs/openFrameworks/3d"
+        ]
+    }
+}
