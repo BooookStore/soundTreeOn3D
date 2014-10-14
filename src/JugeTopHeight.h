@@ -8,11 +8,15 @@ public:
     JugeTopHeight(float height);
 
 public:
-    void setJugeHeight(float value);
+    void updateHeight();
 
 public:
-    virtual bool getJuge(float value1,float value2) const;
+    void setDecreaseJugeHeight(float amount);
+
+public:
+    virtual bool getJuge(ofPoint top,ofPoint down) const;
 
 private:
     float m_jugeHeight;
+    float m_decrease;
 };

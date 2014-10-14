@@ -42,16 +42,11 @@ void myBranch::update()
     updateTrunkWidth(ofGetElapsedTimef() * 0.01);
 
     //新規でTrunkを生成するかをJugeCreateTimingクラスから判断。
-    if(m_jugger->getJuge(getTopPoint().y - m_basePoint.y,getNumTrunk()))
+    if(m_jugger->getJuge(m_topVertex,m_trunks[m_trunks.size() - 1].getCenterPoint().vertex))
     {
-        cout << "create" << endl;
         createMyTrunk(m_topVertex);
         connectMyTrunk();
-        //exit(-1);
     }
-
-    cout << m_mesh.getNumIndices() << endl;
-
     getMesh() = m_mesh;
 }
 //-----------------------------------------------------------------
@@ -133,9 +128,6 @@ void myBranch::connectMyTrunk()
     {
         int removePosition = numIndex - i;
         m_mesh.removeIndex(removePosition);
-
-        cout << "remove index is " << removePosition << endl;
-        cout << "index amount is " << m_mesh.getNumIndices() << endl;
     }
 
     //新規作成したmyTrunkオブジェクトを下の階層と結合
