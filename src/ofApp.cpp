@@ -30,7 +30,7 @@ void ofApp::draw()
     camera.begin();
 
     //グリッドの猫写
-    //ofDrawGrid();
+    ofDrawGrid();
 
     ofSetColor(ofColor::white);
     branch.drawWireframe();
