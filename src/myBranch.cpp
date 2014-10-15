@@ -3,20 +3,24 @@
 ofIndexType myBranch::m_currentIndexNumber = 0;
 
 //-----------------------------------------------------------------
-myBranch::myBranch()
+myBranch::myBranch():m_jugger(15.0)
 {
-    m_jugger = new JugeTopHeight(15.0);
 }
 
-myBranch::myBranch(ofPoint basePoint)
+myBranch::myBranch(ofPoint basePoint):m_jugger(15.0)
 {
     init(basePoint);
-    m_jugger = new JugeTopHeight(15.0);
 }
 
 //-----------------------------------------------------------------
 void myBranch::init(ofPoint basePoint)
 {
+    //既にinitが一度実行されていた場合、再実行を拒否
+    if(m_trunks.size() != 0){
+        ofLog(OF_LOG_ERROR, "[myBranch] init is second execute.");
+        exit(EXIT_FAILURE);
+    }
+    
     //トップの頂点位置を設定
     setTopPoint(basePoint);
 
@@ -34,6 +38,11 @@ void myBranch::init(ofPoint basePoint)
 
     //topと根本をつなげる。
     conectTopWithRoot(m_trunks[0]);
+    
+    //juggerの初期設定
+    m_jugger.setJugeMin(3);
+    m_jugger.setDecrease(4);
+    m_jugger.getInfomation();
 }
 
 void myBranch::update()
@@ -42,15 +51,12 @@ void myBranch::update()
     updateTrunkWidth(ofGetElapsedTimef() * 0.01);
 
     //新規でTrunkを生成するかをJugeCreateTimingクラスから判断。
-    if(m_jugger->getJuge(m_topVertex,m_trunks[m_trunks.size() - 1].getCenterPoint().vertex))
+    //現在のTOPとTrunkの最高位置にあるものを比較対象へ。
+    if(m_jugger.getJuge(m_topVertex,m_trunks[m_trunks.size() - 1].getCenterPoint().vertex))
     {
         createMyTrunk(m_topVertex);
         connectMyTrunk();
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> FETCH_HEAD
     getMesh() = m_mesh;
 }
 //-----------------------------------------------------------------

@@ -49,6 +49,6 @@ private:
 
     std::vector<myTrunk> m_trunks;
 
-    JugeCreateTiming* m_jugger;
+    JugeTopHeight m_jugger;
 
 };

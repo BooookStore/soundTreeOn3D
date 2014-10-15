@@ -1,7 +1,6 @@
 #include "ofMain.h"
-#include "JugeCreateTiming.h"
 
-class JugeTopHeight : public JugeCreateTiming
+class JugeTopHeight
 {
 public:
     JugeTopHeight();
@@ -11,12 +10,15 @@ public:
     void updateHeight();
 
 public:
-    void setDecreaseJugeHeight(float amount);
+    void getInfomation()const;
+    void setDecrease(float amount);
+    void setJugeMin(float value);
 
 public:
-    virtual bool getJuge(ofPoint top,ofPoint down) const;
+    virtual bool getJuge(ofPoint top,ofPoint down);
 
 private:
     float m_jugeHeight;
+    float m_jugeMin;
     float m_decrease;
 };
