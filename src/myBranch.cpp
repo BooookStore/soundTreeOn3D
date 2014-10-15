@@ -50,8 +50,6 @@ void myBranch::update()
         //exit(-1);
     }
 
-    cout << m_mesh.getNumIndices() << endl;
-
     getMesh() = m_mesh;
 }
 //-----------------------------------------------------------------
