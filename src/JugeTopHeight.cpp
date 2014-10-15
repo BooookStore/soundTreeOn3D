@@ -9,18 +9,21 @@ JugeTopHeight::JugeTopHeight(float height)
     m_jugeHeight = height;
 }
 
-void JugeTopHeight::setJugeHeight(float value)
-{
-    m_jugeHeight = value;
+void JugeTopHeight::updateHeight(){
+    m_jugeHeight -= m_decrease;
 }
 
-bool JugeTopHeight::getJuge(float value1,float value2) const
-{
-    float topPointHeight = value1;
-    float currentNumTrunk = value2;
+void JugeTopHeight::setDecreaseJugeHeight(float amount){
+    if(amount < 0) ofLog(OF_LOG_WARNING) << "[JugeTopHeight] amount is under 0.";
+    m_decrease = amount;
+}
 
-    //(topPointHeight/m_jugeHeight)   :   設定された高さから、必要なtrunkの数量を求める。
-    //currentNumTrunk - 1             :   最初のピラミッド状態を、trunkの数0とするために、-1を行う。この-1により、指定の高さ分に初めて到達したところで、trueが返される。
-    if((int)(topPointHeight/m_jugeHeight) > currentNumTrunk - 1) return true;
+bool JugeTopHeight::getJuge(ofPoint top,ofPoint down) const
+{
+    float distance =top.distance(down);
+    if(distance >= m_jugeHeight)
+    {
+        return true;
+    }
     return false;
 }
